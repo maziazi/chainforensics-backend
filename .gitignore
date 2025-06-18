@@ -1,2 +1,4 @@
 /.DS_Store
-tsconfig.json
+.env
+.eslintrc.json
+.prettierrc
