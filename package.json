@@ -8,9 +8,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@alch/alchemy-sdk": "^1.2.0",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.0.3",
+    "alchemy-sdk": "^3.6.0",
     "axios": "^1.10.0",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
@@ -18,11 +20,23 @@
     "express": "^5.1.0",
     "morgan": "^1.10.0",
     "neo4j-driver": "^5.28.1",
-    "pg": "^8.16.0"
+    "pg": "^8.16.1",
+    "ts-node": "^10.9.2",
+    "typeorm": "^0.3.24",
+    "typescript": "^5.8.3"
   },
   "devDependencies": {
     "eslint": "^9.29.0",
     "nodemon": "^3.1.10",
     "prettier": "^3.5.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maziazi/chainforensics-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maziazi/chainforensics-backend/issues"
+  },
+  "homepage": "https://github.com/maziazi/chainforensics-backend#readme",
+  "description": ""
 }
